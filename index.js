@@ -1,3 +1,8 @@
+// const h1 = document.createElement("h1");
+// h1.textContent = "This is an imperative way to program";
+// h1.className = "header";
+// console.log(h1);
+
 function Navbar() {
 	return (
 		<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -109,7 +114,7 @@ function MainContent() {
 		<div className="container">
 			<div className="row">
 				<div className="col-md-12">
-					<h1>
+					<h1 className="header">
 						<span className="text-warning">
 							<b>
 								<i>
